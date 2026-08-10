@@ -111,9 +111,9 @@ section {
     margin-left: -15px;
 }
 
-.clearfix: :after, /* :after is now :: after with a double colon */
-.container: :after,
-.navbar: :after {
+.clearfix::after,
+.container::after,
+.navbar::after {
     clear: both;
     display: table;
     content: " ";
@@ -273,10 +273,10 @@ background-color: #f5f3f3;
     color: #8D8E8F;
     padding: 2% 1% 2% 7%;
     width: 80%;
-    border-top: 1px solid #090BOD;
+    border-top: 1px solid #090B0D; 
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
-    border-left: 1px solid #090BOD;
+    border-left: 1px solid #090B0D;
     margin: 10px 1em;
     border-radius: 7px;
     background: #13161B;
@@ -334,7 +334,7 @@ background-color: #f5f3f3;
 .submit input[type="submit"]:hover {
 color: #000;
 background-color: #8D8E8F;
-box-shadow: inset 1px 2px 15px 0 rgba (0, 0, 0, 0.5);s
+box-shadow: inset 1px 2px 15px 0 rgba (0, 0, 0, 0.5);
 }
 
 
@@ -382,3 +382,4 @@ FOOTER STYLES
     .container {
         width: 1170px;
     }
+}
