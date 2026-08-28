@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>New homes for sale</title>
 		<meta charset="utf-8">
+		<title>New homes for sale</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
+		
 	<!-- NAV -->
-	<div>
-		<div>
-			<ul>
-				<a href="#home" id="link"><li>HOME</li></a>
-				<a href="#RSVP" id="link"><li>CONTACT</li></a>
+	<div class="wrap">
+		<div class="menu-container">
+			<ul class="menu">
+				<a href="#home" id="link"><li>HOME &nbsp;</li></a>
+				<a href="#gallery" id="link"><li>GALLERY &nbsp;</li></a>
+				<a href="#contact" id="link"><li>RESERVATIONS &nbsp;</li></a>
 			</ul>
 		</div>
 	</div>
@@ -20,13 +23,13 @@
 	<!-- HOME -->
 	<div id="home">
 		<div class="container">
-				<span class="head-main">SHOWROOM</span>
+				<h1>SHOWROOM UK</h1>
 		</div>
 	</div>
 	<!-- END HOME -->
-
+	<br>
 	<!-- SHOWROOM GALLERY-->
-	<section id="showroom">
+	<section id="gallery">
 		<div class="container">
 			<div class="flex-container">
 
@@ -36,73 +39,67 @@
 						<img src="./thumb/thumb_1.png" alt="living_room1" style="width:300px;height:150px;">
 						<img src="./thumb/thumb_2.png" alt="living_room2" style="width:300px;height:150px;">
 						<img src="./thumb/thumb_3.png" alt="living_room3" style="width:300px;height:150px;">
-					
 					</div>
 				</div>
 				<!-- END PHOTO-CONTAINER 1 -->
 		
-				<div class="photo-container">
-					<div class="photo">
-						
-					</div>
-				</div>
 				<!-- PHOTO-CONTAINER 2 -->
 				<div class="photo-container">
-					<div class="photo" style="photo-align:center">
+					<div class="photo">
 						<img src="./thumb/thumb_4.png" alt="kitchen1" style="width:300px;height:150px;">
 						<img src="./thumb/thumb_5.png" alt="kitchen2" style="width:300px;height:150px;">
 						<img src="./thumb/thumb_6.png" alt="kitchen3" style="width:300px;height:150px;">
 					</div>
 				</div>
 				<!-- END PHOTO-CONTAINER 2 -->
-				
-				<div class="photo-container">
-					<div class="photo">
-						
-					</div>
-				</div>
 			</div>	
 		</div>
 	<!-- END SHOWROOM GALLERY-->
-	
+	<br>
 	<!-- SHOWROOM TOUR-->
-	<div>
+	<div class="container">
 	<iframe width="621" height="358" 
 		src="https://www.youtube.com/embed/vNwhM1dvaw0" title="TOUR A $6M Scottsdale New Construction Luxury Home | Scottsdale Real Estate | Camelot Homes"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 	</iframe>
 	</div>
-	
+	<br>
 	<!-- END SHOWROOM TOUR-->
 	
 
 	<!-- RSVP -->
-	<div id="RSVP"> 
-		<h2>Contact us:</h2>
-		<div>
-			<h2>
-			<span>A new brochure of properties available now!</span>
-			</h2>
-			<p>
-				Please provide us with your basic contact information to receive a copy!
-			</p>
-			<div>
-				<form action="" method="post">
-					<input class="rsvp" type="text" value="First Name:"><br>
-					<input class="rsvp" type="text" value="Last Name:"><br>
-					<input class="rsvp" type="text" value="Email Address:"><br>
-					<input class="rsvp" type="text" value="Phone Number:"><br>
-					<div class="form-spacer"></div><br>
+	<section id="contact">
+		<div class="RSVP"> 
+			<div class="container">
+				<div class="flex-container">
+				<h1>Contact us:</h1>
+					<div>
+						<h2>
+						<span>A new brochure of properties available now!</span>
+						</h2>
+						<p>
+							Please provide us with your basic contact information to receive a copy!
+						</p>
 						<div>
-							<input type="submit" value="Submit">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name:"><br>
+								<input class="rsvp" type="text" value="Last Name:"><br>
+								<input class="rsvp" type="text" value="Email Address:"><br>
+								<input class="rsvp" type="text" value="Phone Number:"><br>
+								<div class="form-spacer"></div><br>
+									<div class="submit">
+										<input type="submit" value="Submit">
+									</div>
+							</form>
 						</div>
-				</form>
-			</div>
+					</div>
+				</div>
+			</div>	
 		</div>
-	</div>
+	</section>	
 	<!-- END RSVP -->
-
+<br>
 	<!-- FOOTER -->
-	<div>
+	<div id ="footer">
 		www.showroomsuk.co.uk &nbsp;|&nbsp; &copy; 2026
 	</div>
 	<!-- END FOOTER -->
